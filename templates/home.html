@@ -8,7 +8,7 @@
     <h1>Home, милый home</h1>
     {{greeting}}
     <hr>
-    <form>
+    <form  action="{% url 'reverse' %}">
         <textarea COLS="50" rows="10" name="piptext"></textarea>
         <br>
         <input type="submit" value="ТЫЦ">
